@@ -2,7 +2,7 @@
 A npm module to page count of a docx or pdf file.
 
 ## Installation
-npm install aws-sns-sms
+npm install docx-pdf-pagecount
 
 ## Usage
 
