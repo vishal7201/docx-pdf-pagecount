@@ -24,7 +24,7 @@ const getDocxPageCount = (filePath) => {
                   return resolve(result['Properties']['Pages'][0])
                 } else {
                   fs.unlink(tempFilePath,() => {});
-                  return resolve('');
+                  return reject('Cannot find page count');
                 }
             });
             });
