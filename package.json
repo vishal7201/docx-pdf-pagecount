@@ -1,0 +1,31 @@
+{
+  "name": "docx-pdf-pagecount",
+  "version": "0.0.1",
+  "description": "module to get number of pages in docx and pdf file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishal7201/docx-pdf-pagecount.git"
+  },
+  "keywords": [
+    "docx",
+    "pdf",
+    "pagecount"
+  ],
+  "dependencies": {
+    "pdf2json": "^1.1.7",
+    "stream-to-string": "^1.1.0",
+    "tmp": "0.0.33",
+    "unzip": "^0.1.11",
+    "xml2js": "^0.4.19"
+  },
+  "author": "Vishal Bisht <vishalbisht7201@gmail.com> (http://www.codepeal.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vishal7201/docx-pdf-pagecount/issues"
+  },
+  "homepage": "https://github.com/vishal7201/docx-pdf-pagecount#readme"
+}
